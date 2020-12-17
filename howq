@@ -1,0 +1,259 @@
+[33mcommit 7c86f89e512c99f079acfd7cfc1081f57d4fb471[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Dhanya Gopinath <Dhanya.Gopinath@ivanti.com>
+Date:   Sun Dec 13 08:13:37 2020 +0530
+
+    difftest
+
+[1mdiff --git a/History.txt b/History.txt[m
+[1mindex 1b5251b..e911160 100644[m
+[1m--- a/History.txt[m
+[1m+++ b/History.txt[m
+[36m@@ -1,2 +1,3 @@[m
+ I created 3 files(Hello1.html,History.txt,debug.log) in the TestRepos. History added[m
+ Chabging to test git fetch[m
+[32m+[m[32mTrying to acge k diff options.[m[41m[m
+
+[33mcommit 506d60c5515941929aa63e13f67cc37459d6353d[m
+Merge: 90ea1d8 724bc4e
+Author: Dhanya Gopinath <Dhanya.Gopinath@ivanti.com>
+Date:   Sun Dec 13 08:08:15 2020 +0530
+
+    Merge branch 'master' of https://github.com/Dhanya2019/datewithgit-sample into master
+
+[33mcommit 90ea1d8f52859e10df8fd5ef4ac6f34caaaab9a0[m
+Author: Dhanya Gopinath <Dhanya.Gopinath@ivanti.com>
+Date:   Sun Dec 13 07:56:47 2020 +0530
+
+    Modified only hey
+
+[1mdiff --git a/hey b/hey[m
+[1mindex 0abb0d7..39d5131 100644[m
+[1m--- a/hey[m
+[1m+++ b/hey[m
+[36m@@ -6,3 +6,4 @@[m [mThis is changed in master branch[m
+ What is your name????????????????[m
+ my name is dhanya [m
+ [m
+[32m+[m[32mYou name Mithra[m
+\ No newline at end of file[m
+
+[33mcommit 724bc4ea25e0f5dcb75a6e30b71a9f7316e62067[m[33m ([m[1;31mhub/master[m[33m)[m
+Author: Dhanya2019 <47877544+Dhanya2019@users.noreply.github.com>
+Date:   Sun Dec 13 07:48:30 2020 +0530
+
+    Upadte hist for fetch
+
+[1mdiff --git a/History.txt b/History.txt[m
+[1mindex 813d0f4..1b5251b 100644[m
+[1m--- a/History.txt[m
+[1m+++ b/History.txt[m
+[36m@@ -1 +1,2 @@[m
+ I created 3 files(Hello1.html,History.txt,debug.log) in the TestRepos. History added[m
+[32m+[m[32mChabging to test git fetch[m[41m[m
+
+[33mcommit edaeb494fdcabad580855ef39d3d774819a4e1e5[m
+Author: Dhanya Gopinath <Dhanya.Gopinath@ivanti.com>
+Date:   Sun Dec 13 07:43:01 2020 +0530
+
+    test1
+
+[1mdiff --git a/Hello1.html b/Hello1.html[m
+[1mindex 6fa14a9..5777c7d 100644[m
+[1m--- a/Hello1.html[m
+[1m+++ b/Hello1.html[m
+[36m@@ -11,5 +11,12 @@[m
+     <h1>This is H1 of hello1</h1>[m
+ 	<p>This is P in hello1</p>[m
+ 	<p><b>This is from testbranch1</b></p>[m
+[32m+[m[32m<p>This is P in hello1</p>[m[41m[m
+[32m+[m	[32m<p><b>This is from testbranch1</b></p>[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m<p>This is P in hello1</p>[m[41m[m
+[32m+[m	[32m<p><b>This is from testbranch1</b></p>[m[41m[m
+[32m+[m[32m<p>This is P in hello1</p>[m[41m[m
+[32m+[m	[32m<p><b>This is from testbranch1</b></p>[m[41m[m
+ </body>[m
+ </html>[m
+\ No newline at end of file[m
+[1mdiff --git a/debug.log b/debug.log[m
+[1mindex 29dbf8a..5b4c737 100644[m
+[1m--- a/debug.log[m
+[1m+++ b/debug.log[m
+[36m@@ -2,3 +2,11 @@[m
+ [0822/102258.272:ERROR:crash_report_database_win.cc(469)] failed to stat report[m
+ [0822/102258.272:ERROR:crash_report_database_win.cc(469)] failed to stat report[m
+ [0822/102258.273:ERROR:crash_report_database_win.cc(469)] failed to stat report[m
+[32m+[m[32m[0822/145320.936:ERROR:crash_report_database_win.cc(469)] failed to stat report[m
+[32m+[m[32m[0822/145320.937:ERROR:crash_report_database_win.cc(469)] failed to stat report[m
+[32m+[m[32m[0822/145320.937:ERROR:crash_report_database_win.cc(469)] failed to stat report[m
+[32m+[m[32m[0822/145320.937:ERROR:crash_report_database_win.cc(469)] failed to stat report[m
+[32m+[m[32m[0822/154418.282:ERROR:crash_report_database_win.cc(469)] failed to stat report[m
+[32m+[m[32m[0822/154418.282:ERROR:crash_report_database_win.cc(469)] failed to stat report[m
+[32m+[m[32m[0822/154418.292:ERROR:crash_report_database_win.cc(469)] failed to stat report[m
+[32m+[m[32m[0822/154418.292:ERROR:crash_report_database_win.cc(469)] failed to stat report[m
+
+[33mcommit 2f1d012100c2d14e03d68bf8bef0dfce6dfc1ae7[m
+Merge: 6681b0b d537ed3
+Author: Dhanya Gopinath <Dhanya.Gopinath@ivanti.com>
+Date:   Sat Aug 22 16:17:10 2020 +0530
+
+    conflicts resolved
+
+[33mcommit 6681b0bd5f5217439ad66a8825c74b1a8e7d42be[m
+Author: Dhanya Gopinath <Dhanya.Gopinath@ivanti.com>
+Date:   Sat Aug 22 16:10:58 2020 +0530
+
+    answer added
+
+[1mdiff --git a/hey b/hey[m
+[1mindex d03a35e..5c5d048 100644[m
+[1m--- a/hey[m
+[1m+++ b/hey[m
+[36m@@ -1,3 +1,5 @@[m
+  Hi friends, HAve a hready day[m
+ [m
+[31m-This is changed in master branch[m
+\ No newline at end of file[m
+[32m+[m[32mThis is changed in master branch[m
+[32m+[m
+[32m+[m[32mmy name is dhanya[m[41m [m
+\ No newline at end of file[m
+
+[33mcommit d537ed31f1aac8ba519c467ab0b44e0fad016ed3[m[33m ([m[1;31mhub/testbranch1[m[33m, [m[1;32mtestbranch1[m[33m)[m
+Author: Dhanya Gopinath <Dhanya.Gopinath@ivanti.com>
+Date:   Sat Aug 22 16:09:46 2020 +0530
+
+     question added
+
+[1mdiff --git a/hey b/hey[m
+[1mindex d03a35e..40e737b 100644[m
+[1m--- a/hey[m
+[1m+++ b/hey[m
+[36m@@ -1,3 +1,5 @@[m
+  Hi friends, HAve a hready day[m
+ [m
+[31m-This is changed in master branch[m
+\ No newline at end of file[m
+[32m+[m[32mThis is changed in master branch[m
+[32m+[m
+[32m+[m[32mWhat is your name????????????????[m
+
+[33mcommit 355d81d0e5780bbf64ea93d99035cf4e5c2bc39c[m
+Merge: f830752 71af84d
+Author: Dhanya Gopinath <Dhanya.Gopinath@ivanti.com>
+Date:   Sat Aug 22 15:43:45 2020 +0530
+
+    Merge branch 'testbranch1'
+
+[33mcommit f83075256ca0a24e7d039f7895d1cf66c9c7481d[m
+Author: Dhanya Gopinath <Dhanya.Gopinath@ivanti.com>
+Date:   Sat Aug 22 14:59:53 2020 +0530
+
+    adding hey
+
+[1mdiff --git a/hey b/hey[m
+[1mindex aa37e12..d03a35e 100644[m
+[1m--- a/hey[m
+[1m+++ b/hey[m
+[36m@@ -1,2 +1,3 @@[m
+  Hi friends, HAve a hready day[m
+ [m
+[32m+[m[32mThis is changed in master branch[m
+\ No newline at end of file[m
+
+[33mcommit 71af84d0157bb6b03ae7ddfabea3cc095cda8ba7[m
+Author: Dhanya Gopinath <Dhanya.Gopinath@ivanti.com>
+Date:   Sat Aug 22 14:59:15 2020 +0530
+
+     adding Hello1.html
+
+[1mdiff --git a/Hello1.html b/Hello1.html[m
+[1mindex b64b9a2..6fa14a9 100644[m
+[1m--- a/Hello1.html[m
+[1m+++ b/Hello1.html[m
+[36m@@ -10,5 +10,6 @@[m
+ <body>[m
+     <h1>This is H1 of hello1</h1>[m
+ 	<p>This is P in hello1</p>[m
+[32m+[m	[32m<p><b>This is from testbranch1</b></p>[m[41m[m
+ </body>[m
+ </html>[m
+\ No newline at end of file[m
+
+[33mcommit feaaef9ae3e32c1b35dbf657a679052b09a8b773[m
+Author: Dhanya Gopinath <Dhanya.Gopinath@ivanti.com>
+Date:   Sat Aug 22 13:31:13 2020 +0530
+
+     commit hey
+
+[1mdiff --git a/hey b/hey[m
+[1mnew file mode 100644[m
+[1mindex 0000000..aa37e12[m
+[1m--- /dev/null[m
+[1m+++ b/hey[m
+[36m@@ -0,0 +1,2 @@[m
+[32m+[m[32m Hi friends, HAve a hready day[m
+[32m+[m
+
+[33mcommit 1fd49e45fe9732939eb15b8d8e9e31fda4609caa[m
+Author: Dhanya Gopinath <Dhanya.Gopinath@ivanti.com>
+Date:   Sat Aug 22 10:44:10 2020 +0530
+
+    Modified Hello1.html
+
+[1mdiff --git a/Hello1.html b/Hello1.html[m
+[1mindex 95717b0..b64b9a2 100644[m
+[1m--- a/Hello1.html[m
+[1m+++ b/Hello1.html[m
+[36m@@ -9,5 +9,6 @@[m
+ </head>[m
+ <body>[m
+     <h1>This is H1 of hello1</h1>[m
+[32m+[m	[32m<p>This is P in hello1</p>[m[41m[m
+ </body>[m
+ </html>[m
+\ No newline at end of file[m
+
+[33mcommit afb4a521549a7a5c179e2b7ab3362b296b22a5a7[m
+Author: Dhanya Gopinath <Dhanya.Gopinath@ivanti.com>
+Date:   Sat Aug 22 10:35:32 2020 +0530
+
+    Adding 3 files(Hello1.html,History.txt,debug.log) in the TestRepos
+
+[1mdiff --git a/Hello1.html b/Hello1.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..95717b0[m
+[1m--- /dev/null[m
+[1m+++ b/Hello1.html[m
+[36m@@ -0,0 +1,13 @@[m
+[32m+[m[32m<!DOCTYPE html>[m[41m[m
+[32m+[m[32m<html lang="en">[m[41m[m
+[32m+[m[32m<head>[m[41m[m
+[32m+[m[32m    <meta charset="UTF-8">[m[41m[m
+[32m+[m[32m    <meta name="viewport" content="width=device-width, initial-scale=1.0">[m[41m[m
+[32m+[m[32m    <meta http-equiv="X-UA-Compatible" content="ie=edge">[m[41m[m
+[32m+[m[32m    <title>Hello1</title>[m[41m[m
+[32m+[m[32m    <link type="text/css" rel="stylesheet" href="FBPage.css">[m[41m[m
+[32m+[m[32m</head>[m[41m[m
+[32m+[m[32m<body>[m[41m[m
+[32m+[m[32m    <h1>This is H1 of hello1</h1>[m[41m[m
+[32m+[m[32m</body>[m[41m[m
+[32m+[m[32m</html>[m
+\ No newline at end of file[m
+[1mdiff --git a/History.txt b/History.txt[m
+[1mnew file mode 100644[m
+[1mindex 0000000..813d0f4[m
+[1m--- /dev/null[m
+[1m+++ b/History.txt[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32mI created 3 files(Hello1.html,History.txt,debug.log) in the TestRepos. History added[m[41m[m
+[1mdiff --git a/debug.log b/debug.log[m
+[1mnew file mode 100644[m
+[1mindex 0000000..29dbf8a[m
+[1m--- /dev/null[m
+[1m+++ b/debug.log[m
+[36m@@ -0,0 +1,4 @@[m
+[32m+[m[32m[0822/102258.272:ERROR:crash_report_database_win.cc(469)] failed to stat report[m
+[32m+[m[32m[0822/102258.272:ERROR:crash_report_database_win.cc(469)] failed to stat report[m
+[32m+[m[32m[0822/102258.272:ERROR:crash_report_database_win.cc(469)] failed to stat report[m
+[32m+[m[32m[0822/102258.273:ERROR:crash_report_database_win.cc(469)] failed to stat report[m
